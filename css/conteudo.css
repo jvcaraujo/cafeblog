@@ -47,3 +47,36 @@ main{
         width: 90%;
     }
 }
+
+
+/* ----------------- Responsividade 1024px -----------------*/
+@media (max-width: 1024px) {
+    main {
+        width: 100%;
+    }
+
+    .conteudo {
+        margin: 2rem;
+    }
+
+    .conteudo img {
+        height: auto;  
+        width: 100%;   
+    }
+}
+
+/* ----------------- Responsividade 1440px -----------------*/
+@media (max-width: 1440px) {
+    main {
+        width: 100%;
+    }
+
+    .conteudo {
+        margin: 2rem;
+    }
+
+    .conteudo img {
+        height: 90%;
+        width: 100%;
+    }
+}
